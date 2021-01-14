@@ -37,10 +37,11 @@ nav:
     - About: 'about.md'
 ```
 This example includes nested links too. Remember to add **_tabs_** where you want to have drop-down list.
+As you can see, you don't have to set path for drop-down list element, but you need to use single apostrophes to make it work.
 
 ### Variables
 
-To use variables you need to install mkdocs extension
+To use variables you need to install mkdocs extension:
 
 ```
 pip install mkdocs-macros-plugin
