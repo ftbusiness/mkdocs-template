@@ -11,7 +11,7 @@ pip install mkdocs-material
 
 # How to use
 
-Before you build your pages, the first step is to edit **_mkdocs.yml_** and configure it. Every change must be done in **docs_dir** to work properly.
+Before you build your pages, the first step is to edit **_mkdocs.yml_** and configure it. Every change must be done in **_docs_dir_** to work properly.
 
 ### Adding pages
 
