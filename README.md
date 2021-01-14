@@ -61,6 +61,19 @@ or
 ```
 Hello, {{ example2 }}
 ```
+
+# Deploying
+
+When you're done building you docs, run:
+```
+mkdocs build
+```
+This command generates static sites you can view or deploy to your repo. To do this, run:
+```
+mkdocs gh-deploy
+```
+It creates new branch where your entire docs are stored.
+
 # Useful links
 
 [mkdocs](https://www.mkdocs.org/) official documentation
