@@ -16,5 +16,5 @@ You can add your own pages in pages/ folder eg. example.md
 
 # Useful links
 
-[mkdocs](https://www.mkdocs.org/) official documentation
+[mkdocs](https://www.mkdocs.org/) official documentation<br/>
 [mkdocs material theme](https://squidfunk.github.io/mkdocs-material/getting-started/) official documentation
