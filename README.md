@@ -13,15 +13,15 @@ pip install mkdocs-material
 
 Before you build your pages, the first step is to edit mkdocs.yml and configure it.
 
-## Adding pages
+### Adding pages
 
 You can add your own pages in pages/ folder (eg. example.md).
 
-## Adding images
+### Adding images
 
 All images can be stored in img/ folder, but it is up to you. The only requirement is that favicon MUST be stored in img/ folder.
 
-## Navigation and nesting
+### Navigation and nesting
 
 To add navigation links use mkdocs.yml file. Every link should be under nav property. 
 
@@ -34,6 +34,33 @@ nav:
 ```
 This example includes nested links too. Remember to add tabs where you want to have drop-down list.
 
+### Variables
+
+To use variables you need to install mkdocs extension
+
+```
+pip install mkdocs-macros-plugin
+```
+
+Then, edit mkdocs.yml and add your own variables.
+
+Here's the example: 
+```
+extra:
+  example:
+    title: 'FT Docs'
+  example2: 'Hello World'
+```
+
+To use variables you need to insert them in .md files like this:
+```
+Hello, {{ example.title }}
+```
+or
+
+```
+Hello, {{ example2 }}
+```
 # Useful links
 
 [mkdocs](https://www.mkdocs.org/) official documentation
