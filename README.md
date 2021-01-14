@@ -13,6 +13,12 @@ pip install mkdocs-material
 
 Before you build your pages, the first step is to edit **_mkdocs.yml_** and configure it. Every change must be done in **_docs_dir_** to work properly.
 
+You can run
+```
+mkdocs serve
+```
+command to see your changes in browser. 
+
 ### Adding pages
 
 You can add your own pages in **_pages/_** folder (eg. example.md).
