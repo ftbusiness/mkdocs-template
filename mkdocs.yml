@@ -1,0 +1,23 @@
+# Title
+site_name: FT Docs
+
+# Navigation
+nav:
+  - Home: 'index.md'
+  - 'Section':
+    - About: 'about.md'
+
+# Plugins
+plugins:
+  - macros
+  - search
+
+# Theme
+theme: 
+  name: material
+
+# Variables
+extra:
+  example:
+    title: 'FT Docs'
+  
