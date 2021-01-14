@@ -73,7 +73,7 @@ or
 Hello, {{ example2 }}
 ```
 
-Variables can be stored in an external file or in **_mkdocs.yml_** under **_extra_** section
+Variables can be stored in an external file or in **_mkdocs.yml_** under **_extra_** section. More info [here](https://squidfunk.github.io/mkdocs-material/reference/variables/).
 
 # Deploying
 
