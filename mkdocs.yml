@@ -1,11 +1,13 @@
 # Title
-site_name: FT Docs
+site_name: Fiori Tracker Business
 
 # Navigation
 nav:
-  - Home: 'index.md'
-  - 'Section':
-    - About: 'about.md'
+  - Introduction: 'index.md'
+  - 'Fiori Tracker Business': 
+      - Catalog Import: 'pages/ci/FPS01/index.md'
+  - Installation: 'pages/inst.md'
+  - FAQ: 'pages/faq.md'
 
 # Plugins
 plugins:
@@ -13,13 +15,13 @@ plugins:
   - search
 
 # Theme
-theme: 
-  name: material
-  logo: assets/images/ft-logo.png
-  favicon: assets/images/favicon.ico
+theme:
+  name: 'material'
+  logo: 'assets/images/FT-logo.png'
+  favicon: 'assets/images/favicon.ico'
 
 # Variables
 extra:
   example:
-    title: 'FT Docs'
+    title: 'Fiori Tracker Business'
   
