@@ -32,6 +32,7 @@ nav:
   - 'Section':
     - About: 'about.md'
 ```
+This example includes nested links too. Remember to add tabs where you want to have drop-down list.
 
 # Useful links
 
