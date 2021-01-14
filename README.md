@@ -13,7 +13,25 @@ pip install mkdocs-material
 
 Before you build your pages, the first step is to edit mkdocs.yml and configure it.
 
-You can add your own pages in pages/ folder eg. example.md
+## Adding pages
+
+You can add your own pages in pages/ folder (eg. example.md).
+
+## Adding images
+
+All images can be stored in img/ folder, but it is up to you. The only requirement is that favicon MUST be stored in img/ folder.
+
+## Navigation and nesting
+
+To add navigation links use mkdocs.yml file. Every link should be under nav property. 
+
+Example:
+```
+nav:
+  - Home: 'index.md'
+  - 'Section':
+    - About: 'about.md'
+```
 
 # Useful links
 
