@@ -21,6 +21,10 @@ You can add your own pages in **pages/** folder (eg. example.md).
 
 All images can be stored in any folder you want, so it's up to you, but the only requirement this theme has is that favicon MUST be stored in **assets/images** folder in docs_dir.
 
+### Logo and favicon
+
+To change them, edit **mkdocs.yml** file and set path for logo and favicon in **_theme_** section.
+
 ### Navigation and nesting
 
 To add navigation links use **mkdocs.yml** file. Every link should be under nav property. 
