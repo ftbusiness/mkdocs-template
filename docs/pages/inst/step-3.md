@@ -11,11 +11,11 @@ When description refers to `Service name`, you need to put the service’s name 
 1.1. Start SAP Gui transaction **SEGW**<br>
 1.2. Using the menu *Project > Open* - Open project named as the first part of the `Service name`. Fe. if `Service name` is ZFIORITRACKER_SVR please open project called ZFIORITRACKER.
 
-![](../../../img/segw.png)
+[ ![](../../../img/segw.png) ](../../../img/segw.png)
 
 1.3. Go to Change mode and choose function **Generate** (you will be prompted for transport and your user must be registered as developer)
 
-![](../../../img/segw_gen.png)
+[ ![](../../../img/segw_gen.png) ](../../../img/segw_gen.png)
 
 ### 2. Add the Service to Service Catalog
 
@@ -35,7 +35,7 @@ If the entry is present then move to sub-step 3 (Add system alias to ICF node), 
 
 3.1 In /n/IWFND/MAINT_SERVICE, chose `Service name`
 
-![](../../../img/maint-service.png)
+[ ![](../../../img/maint-service.png) ](../../../img/maint-service.png)
 
 3.2 If ICF node is green and alias is present then the procedure is completed, if not, please execute the following steps:
 
@@ -43,4 +43,4 @@ If the entry is present then move to sub-step 3 (Add system alias to ICF node), 
 
 3.4 Click on **ICF node** button and from drop down chose **Activate**
 
-![](../../../img/maint-service-icf.png) 
+[ ![](../../../img/maint-service-icf.png) ](../../../img/maint-service-icf.png) 

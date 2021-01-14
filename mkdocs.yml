@@ -20,6 +20,9 @@ theme:
   logo: 'assets/images/FT-logo.png'
   favicon: 'assets/images/favicon.ico'
 
+markdown_extensions:
+  - def_list
+
 # Variables
 extra:
   example:
