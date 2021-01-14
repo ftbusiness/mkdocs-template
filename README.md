@@ -33,7 +33,7 @@ To change them, edit **_mkdocs.yml_** file and set path for logo and favicon in 
 
 ### Navigation and nesting
 
-To add navigation links use **_mkdocs.yml_** file. Every link should be under nav property. 
+To add navigation links use **_mkdocs.yml_** file. Every link should be under nav section. 
 
 Example:
 ```
@@ -72,6 +72,8 @@ or
 ```
 Hello, {{ example2 }}
 ```
+
+Variables can be stored in an external file or in **_mkdocs.yml_** under **_extra_** section
 
 # Deploying
 
