@@ -35,6 +35,13 @@ All images can be stored in any folder you want, so it's up to you, but the only
 
 To change them, edit **_mkdocs.yml_** file and set path for logo and favicon in **_theme_** section.
 
+Example:
+```
+theme:
+  logo: 'assets/images/FT-logo.png'
+  favicon: 'assets/images/favicon.ico'
+```
+
 ### Navigation and nesting
 
 To add navigation links use **_mkdocs.yml_** file. Every link should be under nav section. 
